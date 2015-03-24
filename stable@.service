@@ -1,0 +1,5 @@
+[Unit]
+Description=Test unit for measuring fleet
+
+[Service]
+ExecStart=/usr/bin/docker run busybox:latest sh -c "while true; do sleep 5; done"
